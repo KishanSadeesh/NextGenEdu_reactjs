@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+}
+.Signup{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.split{
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+}
+.div.split .rightUp{
+    top:0;
+}
+
+.leftUp{
+    left : 0;
+    border-right: 5px solid rgb(103, 103, 103);
+    box-shadow: 10px 10px 10px rgba(0,0,0,.4);
+    background: url("../Assets/blue2.webp");
+    background-size: cover;
+    height: 100%;
+    width: 50%;
+}
+
+.rightUp{
+    right: 0;
+    padding-left: 100px;
+    top: 0;
+}
+
+.centre{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centre img{
+    width: 500px;
+}
+
+.wrapper{
+    width: 400px;
+    height: 100vh;
+    color: black;
+    background: #fff;
+    background: 100px;
+    min-height: 0;
+    top: 0;
+    padding-top: 20px;
+    padding-bottom: 5px;    
+}
+
+.wrapper .register-text{
+    color: rgb(8, 110, 154);
+    padding-bottom: 0%;
+}
+
+
+.wrapper{
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.wrapper .inputbox{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.inputbox input{
+    width : 100%;
+    height : 100%;
+    background: 15px;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    border: 2px groove rgb(43, 91, 43);
+    font-size: 17px;
+    padding: 20px 20px;
+}
+.inputbox ::placeholder{
+    color: rgb(1, 1, 1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    position: 40px;
+    font-size: 18px;
+}
+
+
+.flbox{
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+
+
+
+
+.wrapper .bt{
+    display: flex;
+    justify-content: center;
+}
+
+
+.wrapper .bt{
+    background-color: rgb(8, 110, 154);
+    color: whitesmoke;
+    font-style: bold;
+    width: 100%;
+    height: 45px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    box-shadow: 10px 10px 10px rgba(0,0,0,.2);
+    cursor: pointer;
+    
+
+}
+
+
+.wrapper .login-link{
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    padding-top: 5%;
+    padding-bottom: 6%;
+    padding: 2%;
+}
+
+
+.login-link a{
+   padding-left: 2%;
+   color: rgb(97, 97, 213);
+   font-style: bold;
+   text-decoration: none;
+}
+
+.login-link a:hover{
+    text-shadow: black;
+    text-decoration: underline;
+}
+

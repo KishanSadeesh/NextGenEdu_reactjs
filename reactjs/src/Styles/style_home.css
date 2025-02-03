@@ -1,0 +1,93 @@
+.section1 video{
+    height: 250px;
+    border: solid 2px rgba(0,0,0,0.3);
+    border-radius: 25px;
+    box-shadow: 10px 10px rgba(247, 255, 236, 0.449);
+}
+
+.section1{
+    background-color: rgba(0, 0, 0, 0.819);
+    display: flex;
+    justify-content: space-around;
+    padding: 120px 0 120px;
+    border-bottom: solid 10px;
+    box-shadow: rgba(197, 207, 207, 0.937) 0px 5px;
+}
+.section1 h1{
+    margin: 0;
+    color:aliceblue;
+    justify-content: center;
+
+}
+
+.section1 p{
+    color: rgba(227,239,201,255);
+    
+}
+
+.section2 {
+    background-color: rgba(219, 212, 212, 0.534);
+    padding: 20px;
+    border-bottom: 2px rgba(188, 192, 192, 0.937) solid;
+    box-shadow: 10px 0 10px 5px rgba(42, 39, 39, 0.564);
+    padding-bottom: 50px;
+  }
+.section2 h1{
+    padding-top: 40px;
+    color: rgba(0, 0, 0, 0.773);
+    text-shadow: 5px 5px  rgba(128, 128, 128, 0.306);
+}
+  
+  #expertsol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .formalign {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: center; 
+    margin-top: 50px; 
+  }
+  
+  label {
+    font-style: oblique;
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-right: 20px; 
+  }
+  
+  select {
+    margin-bottom: 10px;
+    width: 210px; 
+    margin-right: 100px; 
+    border-radius: 6px;
+    border:1px rgb(44, 42, 42) solid;
+    background-color: rgba(16, 16, 16, 0.897);
+    color: whitesmoke;
+    font-size: 17px;
+  }
+  
+  button {
+    margin-top: 40px; 
+    background-color: rgba(16, 16, 16, 0.897);
+    color: white;
+    padding: 10px 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #545353; 
+    box-shadow: 3px 4px rgba(71, 68, 68, 0.482);
+  }
+
+  .section2 p{
+    font-size: 25px;
+    padding-top: 50px;
+    color: rgb(12, 117, 245);
+  } 
