@@ -1,4 +1,4 @@
-.section1 video{
+.section1 image{
     height: 250px;
     border: solid 2px rgba(0,0,0,0.3);
     border-radius: 25px;
@@ -14,7 +14,7 @@
     box-shadow: rgba(197, 207, 207, 0.937) 0px 5px;
 }
 .section1 h1{
-    margin: 0;
+    margin: 100;
     color:aliceblue;
     justify-content: center;
 
@@ -91,3 +91,53 @@
     padding-top: 50px;
     color: rgb(12, 117, 245);
   } 
+
+  .text{
+    padding: 50px;
+  }
+
+  .section1 {
+    background-color: rgba(0, 0, 0, 0.819);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 10%;
+    border-bottom: solid 10px rgba(255, 255, 255, 0.2);
+    box-shadow: rgba(197, 207, 207, 0.937) 0px 5px;
+    gap: 50px;
+}
+
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.curved-image {
+    width: 110%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 25px;
+    border: solid 2px rgba(255, 255, 255, 0.3);
+    box-shadow: 10px 10px 20px rgba(247, 255, 236, 0.3);
+}
+
+.text {
+    flex: 1;
+    color: aliceblue;
+    text-align: left;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.description {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+    max-width: 600px;
+}

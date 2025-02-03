@@ -2,13 +2,9 @@ import React from 'react'
 import { useRef,useEffect,useState} from 'react';
 import '../Styles/style_home.css'
 import '../Components/HideNav'
-import dronevideo from '../Assets/dronevid.mp4'
+import front from '../Assets/front.jpg'
 
 function Home() {
-  const videoRef = useRef(null);
-  useEffect(() => {
-    videoRef.current.play();
-  }, []);
   const product = [
     {
       name: "Rice",
@@ -113,17 +109,15 @@ if (matchingCrop) {
   return (
     <div className="homepage">
       <div className="section1">
-      <video ref={videoRef} className="video" autoPlay muted loop>
-        <source src={dronevideo} type="video/mp4" />
-        Your browser does not support the video tag.
-      </video> 
+      <div className="image-container">
+          <img src={front} alt="AI Tutor" className="curved-image" />
+        </div>
       <div className="text">     
           <p>
           
-          <h1>Agricultural Drone</h1> 
+          <h1>AI TUTOR</h1> 
           <br/>
-          <br/>
-            AgriCity's agricultural drones are equipped with cutting-edge sensors and imaging technology,<br /> offering farmers comprehensive aerial insights for crop monitoring and management. Our drones enable precise <br /> spraying, mapping, and analysis, empowering farmers to make data-driven decisions and optimize yields.<br /> With user-friendly interfaces and robust performance, Agricity drones streamline farming operations,<br /> reduce input costs, and promote sustainable practices, ensuring a prosperous future for agriculture.<br />
+          <br/>NextGenEdu’s AI Tutor is an intelligent learning companion designed to assess your skills and enhance your understanding through interactive learning. Equipped with advanced algorithms and adaptive assessments, our AI Tutor provides personalized feedback, identifies knowledge gaps, and tailors lessons to your needs. Whether you're preparing for exams or mastering new concepts, our AI-driven platform ensures efficient learning with real-time insights and targeted guidance. With a user-friendly interface and robust performance, NextGenEdu’s AI Tutor empowers learners to achieve their full potential, making education more engaging, effective, and accessible.
             </p>
       </div>
     </div>
