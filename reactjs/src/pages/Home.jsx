@@ -121,45 +121,7 @@ if (matchingCrop) {
             </p>
       </div>
     </div>
-      <div className="section2">
-        <h1>Expert Solutions</h1>
-      <div id='expertsol'>
-    <form>
-      <div className="formalign">
-      <label>Soil Type:</label>
-        <select value={selectedOptioncase1} onChange={handleSelectChangecase1}>
-          <option value="" >Select here</option>
-          <option name="soiltype" value="Sandy">Sandy</option>
-          <option name="soiltype" value="Clay">Clay</option>
-          <option name="soiltype" value="Loam">Loam</option>
-          <option name="soiltype" value="Silt">Silt</option>
-        </select>
-        <label>Temperature Range:</label>
-
-      <select value={selectedOptioncase2} onChange={handleSelectChangecase2}>
-        <option value="" >Select here</option>
-        <option name="temprange" value="Tropical">Tropical (hot and humid)</option>
-        <option name="temprange" value="Cold">Cold (chilly to freezing)</option>
-        <option name="temprange" value="Temperate">Temperate (moderate)</option>
-        <option name="temprange" value="Subtropical">Subtropical (warm to hot)</option>
-      </select>
-      <label>Water Availability:</label>
-      <select value={selectedOptioncase3} onChange={handleSelectChangecase3}>
-  
-        <option value="" >Select here</option>
-        <option name="wateravail" value="Abundant">Abundant water supply</option>
-        <option name="wateravail" value="Adequate">Adequate water supply</option>
-        <option name="wateravail" value="Seasonal">Seasonal water availability</option>
-        <option name="wateravail" value="Dependence">Dependence on rainfall</option>
-      </select>
-      </div>
-      <button onClick={handleSubmit} value="submit" name='submit'>Try it</button>
-    </form>
-    <b>
-    <p>Crop: {selectedCrop}</p>
-    </b>
-    </div>
-    </div>
+      
     </div>
   )
 }

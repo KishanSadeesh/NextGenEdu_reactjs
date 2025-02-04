@@ -38,11 +38,6 @@
     text-shadow: 5px 5px  rgba(128, 128, 128, 0.306);
 }
   
-  #expertsol {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
   
   .formalign {
     display: flex;
@@ -94,6 +89,7 @@
 
   .text{
     padding: 50px;
+    font-size: large;
   }
 
   .section1 {
